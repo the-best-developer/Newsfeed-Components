@@ -28,5 +28,3 @@ class Article {
 */
 
 let articles = document.querySelectorAll('.article').forEach(art => new Article(art));
-
-console.log(articles)
